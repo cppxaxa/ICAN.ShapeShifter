@@ -1,0 +1,68 @@
+{
+ "configServer001v1": {
+  "pid": 1001,
+  "running": false,
+  "id": "conf001v1",
+  "name": "Configuration Server V1 001",
+  "type": "process",
+  "cmd": [
+   "python3",
+   "-m",
+   "http.server"
+  ]
+ },
+ "redis001v1": {
+  "pid": 1111,
+  "running": true,
+  "id": "redis001v1",
+  "name": "Redis V1 001",
+  "type": "process",
+  "cmd": [
+   "python3",
+   "-m",
+   "http.server"
+  ]
+ },
+ "loadBalancer": {
+  "pid": 23129,
+  "running": false,
+  "id": "LB001",
+  "name": "Load Balancer",
+  "type": "process",
+  "cmd": [
+   "python3",
+   "-m",
+   "http.server"
+  ]
+ },
+ "redis002v1": {
+  "pid": 1122,
+  "running": true,
+  "id": "redis002v1",
+  "name": "Redis V1 002",
+  "type": "process",
+  "cmd": [
+   "python3",
+   "-m",
+   "http.server"
+  ]
+ },
+ "cAllenNlp001": {
+  "running": "Stopped",
+  "name": "cAllenNlp001",
+  "type": "container",
+  "ip": []
+ },
+ "cNemoAsr001": {
+  "running": "Stopped",
+  "name": "cNemoAsr001",
+  "type": "container",
+  "ip": []
+ },
+ "gNemoAsr001-v2": {
+  "running": "Stopped",
+  "name": "gNemoAsr001-v2",
+  "type": "container",
+  "ip": []
+ }
+}

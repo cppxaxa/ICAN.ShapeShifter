@@ -1,0 +1,9 @@
+v1_authserver::host
+v1_authserver::port
+
+v1_backend::port
+v1_backend_list
+
+v1_userinfodb::host
+v1_userinfodb::port
+
