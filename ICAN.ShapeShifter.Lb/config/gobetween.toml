@@ -76,7 +76,7 @@ backend_connection_timeout = "0" # Backend connection timeout (ignored in udp)
 
 [servers.sample]
 protocol = "tcp"
-bind = "0.0.0.0:3000"
+bind = "0.0.0.0:80"
 
   [servers.sample.discovery]
   kind = "static"
@@ -87,20 +87,20 @@ bind = "0.0.0.0:3000"
 
 # ---------- udp example ----------- #
 
-[servers.udpsample]
-bind = "localhost:4000"
-protocol = "udp"
-
-  [servers.udpsample.udp]
-  max_responses = 1
-
-  [servers.udpsample.discovery]
-  kind = "static"
-  static_list = [
-      "8.8.8.8:53",
-      "8.8.4.4:53",
-      "91.239.100.100:53"
-  ]
+#[servers.udpsample]
+#bind = "localhost:4000"
+#protocol = "udp"
+#
+#  [servers.udpsample.udp]
+#  max_responses = 1
+#
+#  [servers.udpsample.discovery]
+#  kind = "static"
+#  static_list = [
+#      "8.8.8.8:53",
+#      "8.8.4.4:53",
+#      "91.239.100.100:53"
+#  ]
 
 #
 # -------------------- example ----------------------------- #

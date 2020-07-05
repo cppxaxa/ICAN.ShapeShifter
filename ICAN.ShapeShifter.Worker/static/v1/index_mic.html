@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="js/wakeWordDetection/tfjs.js"></script>
+        <script src="js/wakeWordDetection/speech-commands.js"></script>
+        <script src="js/wakeWordDetection/index.js"></script>
+
+        <script src="js/wavRecorder/recorder.js"></script>
+        <script src="js/wavRecorder/app.js"></script>
+        
+        <script src="js/utility/utilityv1.js"></script>
+        <script src="js/controller/webClientController.js"></script>
+        <script src="js/jquery/jquery-3.5.1.min.js"></script>
+        <script src="js/ui/uiElement.js"></script>
+        <script src="js/bl.js"></script>
+    </head>
+    <body>
+        <input type="button" id="startRecording" value="Start Recording" />
+        <input type="button" id="stopRecording" value="Stop Recording" />
+        <ol id="recordingsList"></ol>
+
+
+        <form action="http://localhost/v1/transcribe_file" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="checkbox" name="beam"> Rescore with ngram
+            <input type="submit">
+        </form>
+      
+
+    </body>
+</html>
