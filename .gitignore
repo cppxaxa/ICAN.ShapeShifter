@@ -1,3 +1,6 @@
 ICAN.ShapeShifter.Worker/speech_recog_app/checkpoint/jasper10x5dr.yaml
 ICAN.ShapeShifter.Worker/speech_recog_app/checkpoint/JasperDecoderForCTC-STEP-265520.pt
 ICAN.ShapeShifter.Worker/speech_recog_app/checkpoint/JasperEncoder-STEP-265520.pt
+ICAN.ShapeShifter.Worker/speech_recog_app/quartznet15x5/JasperDecoderForCTC-STEP-243800.pt
+ICAN.ShapeShifter.Worker/speech_recog_app/quartznet15x5/JasperEncoder-STEP-243800.pt
+ICAN.ShapeShifter.Worker/speech_recog_app/quartznet15x5/quartznet15x5.yaml
